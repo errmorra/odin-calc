@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid rgb(219, 3, 3);
+    border-radius: 10px;
+}
+
+.operator{
+    border: 1px solid rgb(230, 195, 3);
+    border-radius: 10px;
+}
+
+.decimal{
+    border: 1px solid rgb(77, 4, 77);
+    border-radius: 10px;
+}
+
+.equal{
+    border: 1px solid rgb(12, 12, 245);
+    border-radius: 10px;
+}
+
+#clear-btn{
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+}
